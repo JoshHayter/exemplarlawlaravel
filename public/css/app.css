@@ -7457,7 +7457,7 @@ a.navbar-item.is-active,
 }
 
 .navbar-item img {
-  max-height: 1.75rem;
+  max-height: 3rem;
 }
 
 .navbar-item.has-dropdown {
@@ -11407,5 +11407,17 @@ label.panel-block:hover {
 .navbar-laravel {
   background-color: #fff;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.04);
+}
+
+.legal {
+  background-color: #7a7a7a;
+  color: white;
+}
+
+.position-bottom {
+  width: 100%;
+  left: 0;
+  bottom: 10px;
+  position: absolute;
 }
 

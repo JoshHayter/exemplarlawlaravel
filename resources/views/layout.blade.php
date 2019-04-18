@@ -1,17 +1,30 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
-  <head>
+
+<head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>@yield('title', 'Exemplar Law')</title>
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
     <script defer src="{{ asset('js/app.js') }}"></script>
     <script defer src="https://use.fontawesome.com/releases/v5.8.1/js/all.js" integrity="sha384-g5uSoOSBd7KkhAMlnQILrecXvzst9TdC09/VM+pjDTCM+1il8RHz5fKANTFFb+gQ" crossorigin="anonymous"></script>
-  </head>
-  <body>
+</head>
+
+<body>
     <div id='app'>
-      <navbar-component></navbar-component>
-      @yield('content')
+        <navbar-component></navbar-component>
+        <img src="{{ asset('img/London.jpg') }}">
+        <section class="section">
+            <div class="container">
+                @yield('content')
+            </div>
+        </section>
+        <section class="section legal">
+            <div class="container">
+      <footer-component></footer-component>
     </div>
-  </body>
+</section>
+    </div>
+</body>
+
 </html>

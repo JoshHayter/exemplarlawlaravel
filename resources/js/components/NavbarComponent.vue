@@ -1,8 +1,9 @@
 <template>
-<nav class="navbar">
+<nav class="navbar is-spaced">
+  <div class="container">
     <div class="navbar-brand">
         <a class="navbar-item" href="/">
-            <img :src="inlineLogo" >
+            <img :src="inlineLogo" alt="Exemplar Law">
         </a>
 
         <a class="navbar-burger burger">
@@ -29,6 +30,7 @@
 
         </div>
     </div>
+  </div>
 </nav>
 </template>
 
